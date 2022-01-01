@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T06:32:52.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TuxqlGP9TdutLtm2PaKR" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T06:53:11.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Tv5VI88u9AekxklNjfR-" version="16.0.0" type="github">
   <diagram id="lPdQK_PEAU3drwZlX_Cc" name="Page-1">
-    <mxGraphModel dx="2567" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2283" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SBYUweihmIDyW17ThOEp-1" value="OSI Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="90" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-9" value="responsible for transmission and reception of raw data on a physical medium&amp;nbsp;&lt;br&gt;converts bits to electrical, radio, or optical signals" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="460" width="430" height="30" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-9" value="responsible for transmission and reception of raw data on a physical medium&amp;nbsp;&lt;br&gt;converts bits to electrical, radio, or optical signals" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="440" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-2" value="Application Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="170" height="30" as="geometry" />
@@ -31,17 +31,17 @@
         <mxCell id="SBYUweihmIDyW17ThOEp-8" value="Physical Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="180" y="380" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-212" value="provides node to node transfer, link between two directly connected nodes&lt;br&gt;establish/terminate connection, flow control, error checking (within same network)&lt;br&gt;extracts data packets from network layer and splits up into frames" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="400" width="450" height="50" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-212" value="provides node to node transfer, link between two directly connected nodes&lt;br&gt;establish/terminate connection, flow control, error checking (within same network)&lt;br&gt;extracts data packets from network layer and splits up into frames" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="380" width="480" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-213" value="means of transferring packet from one node to another connected in a different network&lt;br&gt;only needs to provide content, destination address, and a method of getting there, &lt;br&gt;may split up data if too large, handles reassembly, may report errors" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="-320" y="340" width="480" height="50" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-213" value="means of transferring packet from one node to another connected in a different network&lt;br&gt;only needs to provide content, destination address, and a method of getting there, &lt;br&gt;may split up data if too large, handles reassembly, may report errors" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="320" width="480" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-214" value="provides means of transferring variable length data sequence from source to host while maintaining quality&lt;br&gt;flow control, segmentation/de-segmentation, error control (between networks)&lt;br&gt;provides acknowledgement if no errors, decides transmission protocols" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="280" width="580" height="50" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-214" value="provides means of transferring variable length data sequence from source to host while &lt;br&gt;maintaining quality&amp;nbsp;&lt;br&gt;flow control, segmentation/de-segmentation, error control (between networks)&lt;br&gt;provides acknowledgement if no errors, decides transmission protocols" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="250" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-215" value="handles the conversation between networks&lt;br&gt;creates/manages/terminates connection between the local and remote application&lt;br&gt;session checking and recovery, handles ports" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="220" width="450" height="50" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-215" value="handles the conversation between networks&lt;br&gt;creates/manages/terminates connection between the local and remote application&lt;br&gt;session checking and recovery, handles ports" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="190" width="480" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-216" value="Application Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="450" y="140" width="170" height="30" as="geometry" />
@@ -49,20 +49,17 @@
         <mxCell id="SBYUweihmIDyW17ThOEp-217" value="Transport Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="450" y="180" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-218" value="Internet Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="SBYUweihmIDyW17ThOEp-218" value="&lt;font color=&quot;#ffffff&quot;&gt;Internet Layer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="450" y="220" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-219" value="Link Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="450" y="260" width="170" height="30" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-219" value="Physical Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="450" y="300" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-220" value="TCP/IP Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="90" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-221" value="transforms data into form that application accepts&lt;br&gt;responsible for data conversion, encryption/decryption, and compression" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="180" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-222" value="closest to end user, OSI application layer and user directly interact with software application&lt;br&gt;identify communication partners, determining resource availability, and synchronizing communication,&amp;nbsp;&lt;br&gt;determines which protocol suite to be used, HTTP, STMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="115" width="560" height="50" as="geometry" />
+        <mxCell id="SBYUweihmIDyW17ThOEp-221" value="transforms data into form that application accepts&lt;br&gt;responsible for data conversion, encryption/decryption, and compression" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="150" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-223" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=5;" parent="1" source="SBYUweihmIDyW17ThOEp-2" target="SBYUweihmIDyW17ThOEp-216" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -88,13 +85,13 @@
             <mxPoint x="400" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-227" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" source="SBYUweihmIDyW17ThOEp-6" target="SBYUweihmIDyW17ThOEp-218" edge="1">
+        <mxCell id="SBYUweihmIDyW17ThOEp-227" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" source="SBYUweihmIDyW17ThOEp-6" target="SBYUweihmIDyW17ThOEp-218" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="280" as="sourcePoint" />
             <mxPoint x="410" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-228" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=5;" parent="1" source="SBYUweihmIDyW17ThOEp-7" target="SBYUweihmIDyW17ThOEp-219" edge="1">
+        <mxCell id="SBYUweihmIDyW17ThOEp-228" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=5;" parent="1" source="SBYUweihmIDyW17ThOEp-7" target="4ET_ePGSGl0e7_fQzx9v-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="380" as="sourcePoint" />
             <mxPoint x="410" y="330" as="targetPoint" />
@@ -106,20 +103,14 @@
             <mxPoint x="410" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-233" value="Manages host to host communication&lt;br&gt;- Ensures that packets arrive in sequence and without error&lt;br&gt;- Acknowledgments of data reception&lt;br&gt;- Retransmitting of Packets if losts&amp;nbsp;&lt;br&gt;- Example Protocols: TCP, UDP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="640" y="180" width="330" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-234" value="Packets and Packet Headers&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;header that is added includes&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;- source, destination,&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;- sequence number,&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;- acknowledgement number,&lt;/span&gt;&lt;/div&gt;&lt;span&gt;- check sum for error detection/correcti&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="540" width="220" height="100" as="geometry" />
+          <mxGeometry x="-510" y="645" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-235" value="Provides interface and protocols needed&amp;nbsp; by users&lt;br&gt;- Example Protocols: HTTP, FTP, SMTP, DNS, TELNET, SNMP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="640" y="140" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SBYUweihmIDyW17ThOEp-237" value="Where packets are prepared for delivery&lt;br&gt;- Example Protocols: IPv4, IPv6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="640" y="270" width="230" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-239" value="Oracle&amp;nbsp;&lt;br&gt;-&amp;nbsp;&lt;a href=&quot;https://docs.oracle.com/cd/E18752_01/html/816-4554/ipov-29.html&quot;&gt;https://docs.oracle.com/cd/E18752_01/html/816-4554/ipov-29.html&lt;/a&gt;&lt;br&gt;-&amp;nbsp;&lt;a href=&quot;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipov-6.html&quot;&gt;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipov-6.html&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="660" y="50" width="440" height="60" as="geometry" />
+          <mxGeometry x="210" y="-100" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-241" value="User Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="530" y="530" width="170" height="30" as="geometry" />
@@ -167,7 +158,7 @@
           <mxGeometry x="770" y="525" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-265" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="600" width="320" height="160" as="geometry" />
+          <mxGeometry x="-280" y="630" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-267" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -205,9 +196,30 @@
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-274" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-150" y="500" as="sourcePoint" />
-            <mxPoint x="170" y="500" as="targetPoint" />
+            <mxPoint x="-280" y="620" as="sourcePoint" />
+            <mxPoint x="40" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-3" value="Data Link Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-5" value="&lt;span style=&quot;font-size: 12px ; font-family: sans-serif&quot;&gt;Transfers data between nodes&lt;/span&gt;&lt;font face=&quot;sans-serif&quot; style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;- Example Protocols: PPP, IEEE&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-6" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-7" value="Manages host to host communication&lt;br&gt;- Ensures that packets arrive in sequence and without error&lt;br&gt;- Acknowledgments of data reception&lt;br&gt;- Retransmitting of Packets if losts&amp;nbsp;&lt;br&gt;- Example Protocols: TCP, UDP" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-8" value="&lt;font color=&quot;#ffffff&quot;&gt;Where packets are accepted and prepared for delivery&lt;br&gt;- Example Protocols: IPv4, IPv6, ICMP&lt;/font&gt;" style="text;html=1;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-9" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Specifies the characteristics of the hardware to be used for the network, hardware characcteristics, etc&lt;br&gt;- Example Protocols: Ethernet&lt;/font&gt;" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ET_ePGSGl0e7_fQzx9v-10" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;closest to end user, OSI application layer and user directly interact with software application&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;identify communication partners, determining resource availability, and synchronizing communication,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;determines which protocol suite to be used, HTTP, STMP&lt;/span&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="60" width="480" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
