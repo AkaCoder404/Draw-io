@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T06:30:23.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4yXRs_i2l9G8tS8eZ_9O" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-01T06:32:52.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TuxqlGP9TdutLtm2PaKR" version="16.0.0" type="github">
   <diagram id="lPdQK_PEAU3drwZlX_Cc" name="Page-1">
     <mxGraphModel dx="2567" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry x="-240" y="180" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-222" value="closest to end user, OSI application layer and user directly interact with software application&lt;br&gt;identify communication partners, determining resource availability, and synchronizing communication,&amp;nbsp;&lt;br&gt;determines which protocol suite to be used, HTTP, STMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="120" width="560" height="50" as="geometry" />
+          <mxGeometry x="-400" y="115" width="560" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-223" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=5;" parent="1" source="SBYUweihmIDyW17ThOEp-2" target="SBYUweihmIDyW17ThOEp-216" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-233" value="Manages host to host communication&lt;br&gt;- Ensures that packets arrive in sequence and without error&lt;br&gt;- Acknowledgments of data reception&lt;br&gt;- Retransmitting of Packets if losts&amp;nbsp;&lt;br&gt;- Example Protocols: TCP, UDP" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="640" y="165" width="330" height="80" as="geometry" />
+          <mxGeometry x="640" y="180" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-234" value="Packets and Packet Headers&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;header that is added includes&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;- source, destination,&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;- sequence number,&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;- acknowledgement number,&lt;/span&gt;&lt;/div&gt;&lt;span&gt;- check sum for error detection/correcti&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-470" y="540" width="220" height="100" as="geometry" />
@@ -116,7 +116,7 @@
           <mxGeometry x="640" y="140" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-237" value="Where packets are prepared for delivery&lt;br&gt;- Example Protocols: IPv4, IPv6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="640" y="245" width="230" height="30" as="geometry" />
+          <mxGeometry x="640" y="270" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-239" value="Oracle&amp;nbsp;&lt;br&gt;-&amp;nbsp;&lt;a href=&quot;https://docs.oracle.com/cd/E18752_01/html/816-4554/ipov-29.html&quot;&gt;https://docs.oracle.com/cd/E18752_01/html/816-4554/ipov-29.html&lt;/a&gt;&lt;br&gt;-&amp;nbsp;&lt;a href=&quot;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipov-6.html&quot;&gt;https://docs.oracle.com/cd/E23823_01/html/816-4554/ipov-6.html&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="50" width="440" height="60" as="geometry" />
@@ -167,7 +167,7 @@
           <mxGeometry x="770" y="525" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-265" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="510" width="320" height="160" as="geometry" />
+          <mxGeometry x="-200" y="600" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="SBYUweihmIDyW17ThOEp-267" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
